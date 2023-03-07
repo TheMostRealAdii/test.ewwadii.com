@@ -1,10 +1,15 @@
+import Link from "next/link";
+
 const Menu = () => {
   return (
     <>
       <div className="menucontainer">
-        <input className="input" type="checkbox" id="active" />
+        <Link href="/">
+          <div className="logoadii">ADII</div>
+        </Link>
+        <input className="input" type="checkbox" id="active"></input>
         <label htmlFor="active" className="menubtn">
-          <span></span>
+          <span>MENU</span>
         </label>
         <label htmlFor="active" className="close"></label>
         <div className="wrapper">

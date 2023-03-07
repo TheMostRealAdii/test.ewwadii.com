@@ -1,14 +1,187 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"); */
+@import url("https://use.typekit.net/nem6uwm.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
-.main {
+.firsttitle {
   text-align: center;
-  font-size: 13vw;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 0;
+  font-size: 15em;
+  font-family: "playfair-display", serif;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-style: normal;
+  margin-top: 1em;
+  /* font-family: "Playfair Display", serif; */
   color: #ffffff;
-  -webkit-text-stroke: 5px #000;
 }
 
-.secmain {
-  margin-top: -0.4em;
+.secondtitle {
+  margin-top: -0.2em;
+}
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1464px) {
+  .firsttitle {
+    text-align: center;
+    font-weight: 0;
+    font-size: 13em;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: normal;
+    margin-top: 1em;
+    /* font-family: "Playfair Display", serif; */
+    color: #ffffff;
+  }
+
+  .secondtitle {
+    margin-top: -0.2em;
+  }
+
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 864px) {
+  .firsttitle {
+    text-align: center;
+    font-weight: 0;
+    font-size: 10em;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: normal;
+    margin-top: 1em;
+    /* font-family: "Playfair Display", serif; */
+    color: #ffffff;
+  }
+
+  .secondtitle {
+    margin-top: -0.2em;
+  }
+
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .firsttitle {
+    text-align: center;
+    font-weight: 0;
+    font-size: 8em;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: normal;
+    margin-top: 1em;
+    /* font-family: "Playfair Display", serif; */
+    color: #ffffff;
+  }
+
+  .secondtitle {
+    margin-top: -0.2em;
+  }
+
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  .firsttitle {
+    text-align: center;
+    font-weight: 0;
+    font-size: 7.8em;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: normal;
+    margin-top: 1em;
+    /* font-family: "Playfair Display", serif; */
+    color: #ffffff;
+  }
+
+  .secondtitle {
+    margin-top: -0.2em;
+  }
+
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  .firsttitle {
+    text-align: center;
+    font-weight: 0;
+    font-size: 7.8em;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: normal;
+    margin-top: 1em;
+    /* font-family: "Playfair Display", serif; */
+    color: #ffffff;
+  }
+
+  .secondtitle {
+    margin-top: -0.2em;
+  }
+
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    margin-left: 1em;
+    margin-right: 1em;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .firsttitle {
+    text-align: center;
+    font-weight: 0;
+    font-size: 6.7em;
+    font-family: "playfair-display", serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-style: normal;
+    margin-top: 1em;
+    /* font-family: "Playfair Display", serif; */
+    color: #ffffff;
+  }
+
+  .secondtitle {
+    margin-top: -0.2em;
+  }
+
+  .subtitle {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    color: #ffffff;
+  }
 }

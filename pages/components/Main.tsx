@@ -3,9 +3,14 @@ import s from "../styles/main.module.css";
 const Hero = () => {
   return (
     <>
-      <h1 className={`${s.main}`}>ADITYA</h1>
-      <h1 className={`${s.main} ${s.secmain}`}>SHAH</h1>
-      <h1 className={`${s.subhead}`}>The above text is only pc compatible</h1>
+      <div className={`${s.firsttitle}`}>ADITYA</div>
+      <div className={`${s.firsttitle} ${s.secondtitle}`}>SHAH</div>
+      <div className={`${s.subtitle}`}>
+        Front-End Web Developer And UI/UX Designer{" "}
+      </div>
+      <div className={`${s.subtitle}`}>
+        Creating Thoughtful, Intuitive Designs.
+      </div>
     </>
   );
 };
