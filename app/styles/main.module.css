@@ -1,0 +1,73 @@
+@import url("https://use.typekit.net/vap7wkp.css");
+
+/* 
+font-family: "chaparral-pro", serif;
+font-weight: 400;
+font-style: normal;
+ */
+
+.aditya {
+  font-family: "adonis-web", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  color: #4b4b4b;
+  margin-left: 0.18em;
+  margin-top: 2em;
+  /* text-align: center; */
+  font-size: 13vw;
+  font-weight: bold;
+}
+
+.shah {
+  font-family: "adonis-web", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "alternate-gothic-no-3-d", sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  color: #4b4b4b;
+  margin-left: 0.18em;
+  margin-top: -0.3em;
+  /* text-align: center; */
+  font-size: 13vw;
+  font-weight: bold;
+}
+.subtext {
+  display: flex;
+  color: #4b4b4b;
+  font-family: "gitan-latin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-family: "adonis-web", serif;
+  font-weight: 400;
+  font-style: normal; */
+  font-size: 3vw;
+  width: 60%;
+  margin-left: 0.78em;
+}
+
+.subtextslash {
+  display: flex;
+  color: #4b4b4b;
+  font-family: "adonis-web", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+  width: 50%;
+  margin-left: 1em;
+}
+
+/* .container {
+  display: flex;
+}
+
+.container .subtext:first-child {
+  flex: 0 0 48%;
+}
+
+.container .subtextslash:last-child {
+  flex: 0 0 45%;
+} */
